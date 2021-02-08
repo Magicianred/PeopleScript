@@ -65,7 +65,7 @@ function chooseSameBeverage() {
   console.log(beverage);
 }
 
-function chooseNoBeverage() {
+function chooseNoBeverageThenCoffee() {
   /*
     
     Execution Steps in Order:
@@ -85,7 +85,7 @@ function chooseNoBeverage() {
 
 chooseDifferentBeverage(); // => coffee
 chooseSameBeverage(); // => water
-chooseNoBeverage(); // => undefined
+chooseNoBeverageThenCoffee(); // => undefined
                     //    coffee
 
 console.log(beverage); // => water
