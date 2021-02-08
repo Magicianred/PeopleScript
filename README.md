@@ -10,7 +10,7 @@
 <br>
 <hr>
 
-## `var` Statements for Variable Declaration
+## `var` Statements for Variable Declarations
 
 ```javascript
 //
