@@ -67,13 +67,16 @@ function chooseSameBeverage() {
 
 function chooseNoBeverage() {
   /*
-    Execution steps in order:
+    
+    Execution Steps in Order:
+
     1. A function-scoped variable "beverage" is declared but remains undefined.
     2. That "beverage" is hoisted to the top of this block.
     3. Since the assignment operation doesn't occur in the hoisting process,
       the console prints "undefined".
     4. "beverage" is then assigned a value of "coffee"
     5. Finally, the console prints "coffee".
+  
   */
   console.log(beverage);
   var beverage = "coffee";
