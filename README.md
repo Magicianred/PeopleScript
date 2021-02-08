@@ -1,6 +1,10 @@
 <h1 align="center"><b>PeopleScript</b></h1>
 <br>
 <br>
+<p align="center">
+  <img src="ps.png" width="120px"/>
+</p>
+<br>
 <h3 align="center">Documentation for understanding JavaScript meticulously.</h3>
 <br>
 <br>
@@ -29,7 +33,7 @@ if (beverage === "unsweetened tea")
   */ 
   var beverage; // !== undefined
   
-  console.log(beverage) // => unsweetened tea
+  console.log(beverage); // => unsweetened tea
 
   /* 
     This is also another globally-scoped variable 
@@ -39,7 +43,7 @@ if (beverage === "unsweetened tea")
   */
   var beverage = "water";
 
-  console.log(beverage) // => water
+  console.log(beverage); // => water
 }
 
 function chooseDifferentBeverage() {
