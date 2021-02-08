@@ -67,6 +67,6 @@ function chooseNoBeverageThenCoffee() {
 chooseDifferentBeverage(); // => coffee
 chooseSameBeverage(); // => water
 chooseNoBeverageThenCoffee(); // => undefined
-                    //    coffee
+                              //    coffee
 
 console.log(beverage); // => water
