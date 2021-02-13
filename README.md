@@ -68,13 +68,16 @@ function chooseSameBeverage() {
 function chooseNoBeverageThenCoffee() {
   /*
     
-    Execution Process in Order:
+    The output for the code of this function-block might lead to some
+    confusion because of the apparent "hoisting" process which occurs. 
+    Therefore here is what I think happens during the Just-in-time (JIT)
+    compilation process.
 
     1. A function-scoped variable "beverage" is declared but remains undefined.
-    2. That "beverage" is hoisted to the top of this block.
+    2. That "beverage" is hoisted to the top of this function block.
     3. Since the assignment operation doesn't occur before or during 
       the hoisting process, the console prints "undefined".
-    4. "beverage" is then assigned a value of "coffee"
+    4. "beverage" is then assigned a value of "coffee".
     5. Finally, the console prints "coffee".
   
   */
